@@ -69,6 +69,7 @@ def main(prediction_target_path: str = None):
             dest_path=SAMPLE_IMAGE['destination_path'],
             unzip=False,
         )
+        prediction_target_path = SAMPLE_IMAGE['destination_path']
 
     # モデルをロードします。
     model = tensorflow.keras.models.load_model(HDF5['destination_path'])
@@ -76,7 +77,7 @@ def main(prediction_target_path: str = None):
     # 画像を img_nad へ変換します。
     # NOTE: nad = Normalization and Division(正規化と割り算)
     img_nad = convert_image_for_prediction(
-        SAMPLE_IMAGE['destination_path'],
+        prediction_target_path,
         target_image_size=INCEPTION_V3_TARGET_SIZE,
         color_mode='rgb',
         verbose=False,
