@@ -1,3 +1,5 @@
+[![CI](https://github.com/python-mate/flower-stuff-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/python-mate/flower-stuff-workshop/actions/workflows/ci.yml)
+
 flower-stuff-workshop
 ===
 
