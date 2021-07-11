@@ -180,6 +180,5 @@ def convert_image_for_prediction(image_path: str,
 if __name__ == '__main__':
 
     # 今回は引数ナシも許します。
-    print(sys.argv)
     prediction_target_path = sys.argv[1] if len(sys.argv) >= 2 else None
     main(prediction_target_path)
