@@ -110,7 +110,6 @@ def predict_top_classes(model,
     Returns:
         list: Prediction 結果のリスト。
     """
-    print(f'model type: {type(model)}')
     prediction = model.predict(img_nad)[0]
     top_indices = prediction.argsort()[-top_n:][::-1]
     return [(classes[i], prediction[i]) for i in top_indices]
