@@ -5,6 +5,8 @@ flower-stuff-workshop
 
 🌺 FlowerStuff project; this repository is for experiencing prediction with machine learning. People can experience the result of flower-stuff-lab easily.
 
+![flower-stuff-project main image](https://user-images.githubusercontent.com/28250432/125736317-740cd173-d30c-4e55-ab4a-765182601558.jpg)
+
 ## LT document
 
 このプロジェクトは Lightening Talk を見据えて進められました。 LT 資料はこちら(...)。(準備中)
