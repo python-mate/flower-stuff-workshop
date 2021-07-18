@@ -9,7 +9,7 @@ flower-stuff-workshop
 
 ## LT document
 
-このプロジェクトは Lightening Talk を見据えて進められました。 LT 資料はこちら(...)。(準備中)
+このプロジェクトは Lightening Talk を見据えて進められました。 LT 資料はこちら([docs/PythonPartyLT-FlowerStuff.md](docs/PythonPartyLT-FlowerStuff.md))。
 
 ## Manual
 
